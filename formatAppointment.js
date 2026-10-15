@@ -5,12 +5,10 @@ function formatAppointment(appointment) {
 Время: ${appointment.time}
 Пациент: ${appointment.patient}`;
 }
-
 const appointment = {
     doctor: "Иванов И.И.",
     date: "15.10.2026",
     time: "10:30",
     patient: "Алексей"
 };
-
 console.log(formatAppointment(appointment));

@@ -1,5 +1,4 @@
 function fillArray(n, value) {
-    return Array(n).fill(value);
+ return Array(n).fill(value);
 }
-
-console.log(fillArray(5, 7)); 
+console.log(fillArray(5, 7));
